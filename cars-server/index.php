@@ -41,3 +41,5 @@ if (isset($apis[$controller]) && isset($apis[$controller]['methods'][$method])) 
 } else {
     echo ResponseService::response(404, "Route Not Found");
 }
+
+?>
